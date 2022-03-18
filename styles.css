@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  margin: 10px;
+  color: orange;
+  border: 10px solid black;
+  padding: 20px;
+}
+
+.adress-item {
+  display: block;
+}
+
+section {
+}
+
+h3 {
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 36px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+}
+
+.social {
+  font-family: roboto;
+}
+
+.container-social {
+  background-color: blue;
+  _height: 40rem;
+  _width: 100rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.row-social {
+  height: 160px;
+  width: 400px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: purple;
+  border-radius: 0.5rem;
+  display: flex;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.column-social {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.article-social {
+  display: flex;
+  flex-direction: column;
+}
+.logo-social {
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+.header-social {
+  background-color: red;
+  padding: 5px 10px;
+}
+.discription-social {
+  background-color: orange;
+  padding: 5px 10px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: flex-end;
+}
+.button-social {
+  background-color: green;
+  border: 5px solid black;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.account-social {
+  background-color: grey;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.svg {
+  width: auto;
+  height: 100%;
+}
